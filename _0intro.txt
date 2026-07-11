@@ -1,0 +1,16 @@
+Introduction to Python
+
+** Python is a simple ,high level and
+   easy-to-learn programming language (near to the human nature).
+
+** It was created by "Guido van Rossum" in 1991.
+
+** Python is used to build websites, mobile apps, games,
+   widly used in Artificial intelligence (AI),Machine learning (ML), data analysis,
+   and automation. 
+
+** It has a simple syntax that is easy to read and write,
+   making it a great choice for beginners.
+
+** Python has a large number of built-in libraries for AI, Machine Learning,
+   Deep Learning, Mathematics, Statistics, and many other fields.
