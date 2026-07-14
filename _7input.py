@@ -35,6 +35,7 @@ print("Type of value variable is : ",type(value))
 
 #the other method of taking input from user ,
 #this method is used when you need fast input
+# but mostly it is not used 
 
 import sys
 print("Enter your name : ")
