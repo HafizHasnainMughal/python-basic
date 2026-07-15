@@ -1,0 +1,90 @@
+#loops in python
+"""
+  Loop ek programming structure hai jo kisi block of code
+  ko baar baar execute karta hai jab tak koi condition ya sequence khatam na ho jaye.
+"""
+
+
+#for loop in python
+"""
+  syntex:
+    for iterantion in sequence:
+       statement
+"""
+
+#old method to resolve the loops
+print("traditional method ...")
+print("Mula Ali R.A")
+print("Mula Ali R.A")
+print("Mula Ali R.A")
+print("Mula Ali R.A")
+print("Mula Ali R.A")
+print("Mula Ali R.A")
+print("Mula Ali R.A")
+
+#now in loop
+print("for using loop")
+
+for x in range(1,7):
+    print("Mula Ali R.A")
+
+for  i in range(0,4):
+    print(i)
+# for using  range(start,stop,step) uing three parameters 
+#start wala point jider say ap start karna chahtay ho.
+#stop wala point jider tak ap rukna chahtay ho us 
+#   say one index pahlay tak means ager ap likhatay 3 to stop 2 tak ho ga .
+
+
+#for making table using  for loop
+multiple_number=int(input("enter the number you want to make the table :"))
+for y in range(1,10+1):
+    print(f"{multiple_number} * {y}  = {y*multiple_number} ")
+
+
+
+#loop control statements
+"""
+  breake >>> used to terminate the loop entierly
+  continue >> skip to the next iteration of the loop
+  pass >> does nothing ,acts asa a plcaeholder
+
+"""
+
+print("for break condition")
+
+for q in range(1,5):
+    if q==3:
+        break
+    print(q)
+
+print("continue condition  ")
+
+for e in range(1,8):
+    if e==4:
+        continue
+    print(e)
+
+print("pass condition in loop ")
+
+for r in range(1,5):
+    pass
+
+
+#while loop in python
+
+"""
+  while loop tab tak chalta rehta hai jab tak condition True ho.
+
+  syntex:
+    starting_point
+    while condition:
+        statement
+        iteration
+"""
+print("while loop start")
+a=0
+while a<=7:
+    print(a)
+    a+=1
+

@@ -23,3 +23,4 @@ print("My name is : Hafiz Hasnain Mughal \nI am from : Pakistan \nMy age is : 20
 
 #print the  many string and numeric values in one print statement
 print("hello", "world", 20, 30, "python", "programming", 40, 50, "language")
+

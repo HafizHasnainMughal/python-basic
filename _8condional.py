@@ -109,3 +109,17 @@ elif username!="admin" or username!="Admin":
         print("you enterd the wronge username and passward  ")
 else:
     print("you are enter the wronge username or passward")    
+
+
+
+#short hand if else conditional statements 
+"""
+    syntex:
+        statement_if-true if condition else statement-for false
+
+"""
+
+print("short hand if else statements " )
+numb=3
+print("positive number") if numb>=0 else print("negative number ")
+

@@ -82,6 +82,21 @@ print(name[::-1])
   or is ko hum integer ya float me store karte hain.
 """
 
+
+#using f string
+"""
+  f string hum use kartay hain print statements may kisi value ko call karan 
+  syntex:
+    print(f"{1value-call} print-statement {2value-call} ")
+"""
+print("f string method")
+username="@helloworld"
+passward=1234
+print(f"your username is {username} and its passward {passward}")
+
+
+
+
 #types of numeric data type in python
 # 1. integer data type  like 1, 2, 3, 4, 5 etc. in which whole numbers are stored
 # 2. float data type   like 1.1, 2.2, 3.3, 4.4, 5.5 etc. in which pointing values are stored
