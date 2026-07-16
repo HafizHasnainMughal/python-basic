@@ -71,6 +71,23 @@ for r in range(1,5):
     pass
 
 
+#nested for loop in python
+"""
+  syntex:
+     for iteration_for_outer_loop in sequence:
+         for iteration_for_inner_loop in sequence:
+           statement
+        statement
+"""
+print("nested for loop ")
+outer_loop_iteration=int(input("enter the outer loop range :"))
+inner_loop_iteration=int(input("enter the inner loop range :"))
+symbol=input("enter the some symbol :")
+
+for outer in range(1,outer_loop_iteration):
+    for inner in range(1,inner_loop_iteration):
+        print(symbol,end="")
+    print()
 #while loop in python
 
 """
