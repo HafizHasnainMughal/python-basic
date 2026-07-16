@@ -41,3 +41,11 @@ import sys
 print("Enter your name : ")
 name = sys.stdin.readline()
 print(name)
+
+#type conversion 
+print("type conversion ")
+firstnumber=int(input("enter the number "))
+print(type(firstnumber))
+firstnumber=float(firstnumber)
+print(firstnumber)
+print(type(firstnumber))
