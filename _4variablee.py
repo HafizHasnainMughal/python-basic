@@ -44,3 +44,26 @@ print(type(age))
 
 boolean=True
 print(type(boolean))
+
+#multiple assigning values
+print("multiple assigning values ")
+
+a,b,c,d=1,2,3,4
+print(a)
+print(b)
+print(c)
+print(d)
+
+#variable swapping
+print("variable swapping ")
+q=10
+w=20
+print("before swapping")
+print(f"q={q} and w={w} ")
+
+temp=q
+q=w
+w=temp
+print("after swapping")
+print(f"q={q} and w={w} ")
+
