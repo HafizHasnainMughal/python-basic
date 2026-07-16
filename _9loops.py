@@ -1,12 +1,16 @@
 #loops in python
 """
+
   Loop ek programming structure hai jo kisi block of code
   ko baar baar execute karta hai jab tak koi condition ya sequence khatam na ho jaye.
 """
 
 
 #for loop in python
-"""
+""" 
+  for loop hum tab use kartay hain 
+  jab humay pata ho kay user kitni dafa ik cheez ko preint karwana chata hay .
+  means range ka pahlay say pata hona .
   syntex:
     for iterantion in sequence:
        statement
@@ -73,6 +77,8 @@ for r in range(1,5):
 
 #nested for loop in python
 """
+  nested loop means loop kay ander loop ka hona 
+  first loop calling outer loop and second loop calling inner loop.
   syntex:
      for iteration_for_outer_loop in sequence:
          for iteration_for_inner_loop in sequence:
@@ -88,20 +94,51 @@ for outer in range(1,outer_loop_iteration):
     for inner in range(1,inner_loop_iteration):
         print(symbol,end="")
     print()
+
+
 #while loop in python
 
 """
   while loop tab tak chalta rehta hai jab tak condition True ho.
-
+  while loop hum tab use kartay hain jab user 
+   ko range ka na pata ho ya false condition per stop karta hay
   syntex:
     starting_point
     while condition:
         statement
         iteration
 """
+
 print("while loop start")
 a=0
 while a<=7:
     print(a)
-    a+=1
+    a+=1 #increament
+
+
+#using while and for loop usinf check condition
+
+print("checking condition using while loop ")
+while True:
+    table=int(input("enter the number you want to create the table "))
+    for tble in range(1,10+1):
+        print(f"{table} * {tble} = {table*tble}")
+    qest= input("if you create again table press enter otherwise enter 'no' ")
+    if qest.lower()=="no":
+        break
+print("the loop is broke ")
+
+#nested while loop in pyton
+
+print("nested while loop in python  ")
+
+j=1
+while j<=6:
+    k=0
+    while k<7:
+        k+=1
+        print("*",end=" ")
+    print()
+    j+=1
+
 
