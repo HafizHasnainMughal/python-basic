@@ -24,3 +24,13 @@ print("My name is : Hafiz Hasnain Mughal \nI am from : Pakistan \nMy age is : 20
 #print the  many string and numeric values in one print statement
 print("hello", "world", 20, 30, "python", "programming", 40, 50, "language")
 
+print("python","programe" ,sep="-")  #sep means separator 
+
+#Normally, every print() starts a new line but use end="" start same line.
+#you use end="-",end="_" etc
+print("python" ,end=" ") 
+print("programme")
+
+#for empty line or black line
+print()
+
