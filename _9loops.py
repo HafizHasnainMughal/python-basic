@@ -137,7 +137,7 @@ while j<=6:
     k=0
     while k<7:
         k+=1
-        print("*",end=" ")
+        print("$",end=" ")
     print()
     j+=1
 
